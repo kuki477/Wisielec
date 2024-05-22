@@ -1,0 +1,9 @@
+dodalem
+-audio
+-zmienianie liter na duze podczas wpisywanie czegos w pole tekstowe
+-czyszczenie pola co zgadniecie
+-system przegranych
+-system wygranych
+-kategorie
+
+co pasowalo by dodac ale nie wiem jak

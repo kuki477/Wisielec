@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GRA</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <h1 class="lose" style="display: none;" id="przegrana">PRZEGRAŁEŚ (F5)</h1>
+    <h1 class="win" style="display: none;" id="wygrana">WYGRAŁEŚ (F5)</h1>
+    <div class="border">
+        <h2 class="main">WISIELEC<h2>
+	  	  <h2 id="proby" class="main">ILOŚĆ PRÓB: </h2>
+
+	  	  <h2 id="kategoria" class="main">KATEGORIA: <h2>
+	  </div>
+    <div class="srodek">
+      <div class="position_guess">
+        <input id="wpiszPassword" type="text" placeholder="WPISZ ZGADNIĘTE HASŁO" class="guess">
+      </div>
+      <div class="position_input">
+        <input type="button" onclick="zgadnijPassword()" value="ZGADNIJ" id="buttonReset">
+      </div>
+    </div>
+    <div class="center">
+      	<div id="wisielec"></div>
+    </div>
+
+
+    <div class="container">
+		<div class="position_text">
+        <input type="text" id="inputLetter" class="letter" maxlength="1" style="text-transform: uppercase;"/>
+		</div>
+		<div class="position_button">
+      	<input type="button" id="przyciskReset" value="ZATWIERDZ" onclick="checkLetter()"/>
+		</div>
+    <div class="position_canvas">
+    <canvas id="myCanvas" height="400px" width="400px"></canvas>
+    </div>
+    </div>
+    <script src="skrypty.js" defer></script>
+  </body>
+</html>
+
+	
